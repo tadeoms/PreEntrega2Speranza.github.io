@@ -59,3 +59,39 @@ footer {
     padding-right: 1%;
     width: 100%;
 }
+/* Main Index */
+.tsText {
+    margin: 2%;
+}
+#imgTs {
+    width: 100%; 
+    height: 400px;
+}
+#img2Ts {
+    width:30% ; 
+    height: auto;
+    position: relative;
+    float: right;
+    margin: 1%;
+    margin-top: 3%;
+}
+#pTs {
+    margin-top: 2%;
+    width:90%; height: auto
+}
+h1 {
+    font-size: 24px;
+}
+@media (min-width: 768px) {
+        .mainTs {
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;
+                    background-color: white;
+                    padding: 2%;
+}
+        #img2Ts { 
+                    margin-right: 10%;
+                    margin-top: 10%;
+} 
+}
+/* Main Index */
