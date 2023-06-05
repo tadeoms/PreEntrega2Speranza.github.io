@@ -48,17 +48,7 @@ html {
 header img {
         width: 25px;
 }
-footer {
-    display:flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1e1e1e;
-    color: white;
-    padding-left: 1%;
-    padding-right: 1%;
-    width: 100%;
-}
+
 /* Main Index */
 .tsText {
     margin: 2%;
@@ -95,3 +85,27 @@ h1 {
 } 
 }
 /* Main Index */
+/* Main Sobre Mi */
+.SobreMi {display: flex; flex-flow: row nowrap;}
+.SobreMi2 {display: block; margin-top: 5%;}
+.SobreMi2 h2 {margin-bottom: 5%;}
+.SobreMi2 li {margin-left: 20%; margin-bottom: 3%;}
+.SobreMi1 button {height: 100px; margin-top: 0%; }
+.SobreMi1 a {text-decoration: none;color: black;font-weight: bold;}
+header img {width: 25px;}
+/* Main Sobre Mi */
+
+
+/* Footer */
+footer {
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e1e;
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 100%;
+}
+/* Footer */
